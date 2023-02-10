@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RomanMaths
 {
-    public enum Roman : short
+    internal enum Roman : short
     {
         I = 1,
         II = 2,

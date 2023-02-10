@@ -53,40 +53,14 @@ namespace RomanMaths
                 string result = input;
                 for (int n = 0; n < digits.Length; n++)
                 {
-                    result = result.Replace(digits[n], RomanToNum(digits[n]));
+                    result = result.Replace(digits[n], RomanConverter.RomanToNum(digits[n]));
                 }
-                return NumToRoman(RomanMathCalculator.CalculateExpression(result));
+                return RomanConverter.NumToRoman(RomanMathCalculator.CalculateExpression(result));
             }
             catch
             {
                 return "Wrong format";
             }
-        }
-        /// <summary>
-        /// Конвертим римские цифры в арабские
-        /// (XV+XLVII)*XIII->(15+47)*13
-        /// </summary>
-        /// <param name="dig"></param>
-        /// <returns></returns>
-        private static string RomanToNum(string dig)
-        {
-            Roman v;
-            if (Enum.TryParse<Roman>(dig, out v))
-                return ((short)v).ToString();
-            return dig;
-        }
-        /// <summary>
-        /// Конвертим арабские цифры в римские
-        /// (15+47)*13->(XV+XLVII)*XIII
-        /// </summary>
-        /// <param name="dig"></param>
-        /// <returns></returns>
-        private static string NumToRoman(string dig)
-        {
-            short v;
-            if (short.TryParse(dig, out v))
-                return ((Roman)v).ToString();
-            return dig;
         }
     }
 }
