@@ -1,0 +1,12 @@
+D:\Developing\RomanMaths\RomanMaths\bin\Debug\net6.0\RomanMaths.deps.json
+D:\Developing\RomanMaths\RomanMaths\bin\Debug\net6.0\RomanMaths.dll
+D:\Developing\RomanMaths\RomanMaths\bin\Debug\net6.0\RomanMaths.pdb
+D:\Developing\RomanMaths\RomanMaths\obj\Debug\net6.0\RomanMaths.csproj.AssemblyReference.cache
+D:\Developing\RomanMaths\RomanMaths\obj\Debug\net6.0\RomanMaths.GeneratedMSBuildEditorConfig.editorconfig
+D:\Developing\RomanMaths\RomanMaths\obj\Debug\net6.0\RomanMaths.AssemblyInfoInputs.cache
+D:\Developing\RomanMaths\RomanMaths\obj\Debug\net6.0\RomanMaths.AssemblyInfo.cs
+D:\Developing\RomanMaths\RomanMaths\obj\Debug\net6.0\RomanMaths.csproj.CoreCompileInputs.cache
+D:\Developing\RomanMaths\RomanMaths\obj\Debug\net6.0\RomanMaths.dll
+D:\Developing\RomanMaths\RomanMaths\obj\Debug\net6.0\refint\RomanMaths.dll
+D:\Developing\RomanMaths\RomanMaths\obj\Debug\net6.0\RomanMaths.pdb
+D:\Developing\RomanMaths\RomanMaths\obj\Debug\net6.0\ref\RomanMaths.dll

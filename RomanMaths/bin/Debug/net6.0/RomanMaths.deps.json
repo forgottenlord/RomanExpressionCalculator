@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RomanMaths/1.0.0": {
+        "runtime": {
+          "RomanMaths.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RomanMaths/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
